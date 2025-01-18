@@ -25,6 +25,15 @@ a {
   width: 50%;
 }
 
+/* CATEGORY SECTION */
+figure {
+  margin-left: 0;
+}
+
+.category-image {
+  width: 30%;
+}
+
 /* FOOTER */
 footer {
   margin-top: 3rem;
