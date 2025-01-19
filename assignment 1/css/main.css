@@ -1,12 +1,14 @@
 * {
-  font-family: "Playfair Display", serif;
+  font-family: "Indie Flower", serif;
+  background-color: rgb(254, 250, 210);
+  color: rgb(67, 31, 7);
 }
 
 /* HEADER */
 #logo {
   font-weight: 600;
-  font-size: 1.2rem;
-  border: 2px solid black;
+  font-size: 1.8rem;
+  border: 2px solid rgb(160, 94, 68);
   display: inline;
   padding: 5px;
 }
@@ -17,7 +19,7 @@ ul {
 }
 
 a {
-  color: black;
+  color: rgb(91, 153, 90);
 }
 
 /* MAIN */
@@ -25,7 +27,7 @@ a {
   width: 50%;
 }
 
-/* CATEGORY SECTION */
+/* PICTURES SECTION */
 figure {
   margin-left: 0;
 }
@@ -34,8 +36,13 @@ figure {
   width: 30%;
 }
 
+/* ABOUT ME */
+form {
+  margin-bottom: 25px;
+}
+
 /* FOOTER */
 footer {
   margin-top: 3rem;
-  border-top: 1px solid black;
+  border-top: 1px solid rgb(160, 94, 68);
 }
