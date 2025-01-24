@@ -5,17 +5,27 @@
 }
 
 /* HEADER */
+header {
+  display: flex;
+  align-items: center;
+}
+
 #logo {
   font-weight: 600;
-  font-size: 1.8rem;
+  font-size: 1.3rem;
   border: 2px solid rgb(160, 94, 68);
   display: inline;
   padding: 5px;
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding-left: 0px;
+}
+
+li {
+  margin-left: 3rem;
 }
 
 a {
@@ -28,12 +38,17 @@ a {
 }
 
 /* PICTURES SECTION */
+.pictures-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
 figure {
   margin-left: 0;
 }
 
 .category-image {
-  width: 30%;
+  width: 100%;
 }
 
 /* ABOUT ME */
