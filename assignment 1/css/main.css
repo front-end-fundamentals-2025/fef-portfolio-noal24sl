@@ -32,23 +32,50 @@ a {
   color: rgb(91, 153, 90);
 }
 
+/* responsive layout */
+@media screen and (max-width: 520px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ul {
+    margin-top: 0;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 1rem;
+  }
+}
+
 /* MAIN */
 .main-img {
   width: 50%;
 }
 
 /* PICTURES SECTION */
-.pictures-container {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-}
-
 figure {
   margin-left: 0;
 }
 
 .category-image {
   width: 100%;
+}
+
+/* responsive layout */
+@media screen and (min-width: 520px) {
+  .pictures-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .pictures-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 /* ABOUT ME */
