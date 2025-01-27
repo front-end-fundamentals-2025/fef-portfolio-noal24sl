@@ -1,7 +1,9 @@
 * {
-  font-family: "Indie Flower", serif;
-  background-color: rgb(254, 250, 210);
-  color: rgb(67, 31, 7);
+  /* FRÅGA OCKSÅ OM "ALT"" BEHÖVS I PORTFOLIO (VID BILDERNA)*/
+  /* HJÄLP ATT FIXA FONTEN!!!!!!!! */
+  font-family: "Bowlby One SC", serif;
+  background-color: rgb(12, 13, 84);
+  color: rgb(217, 241, 4);
 }
 
 /* HEADER */
@@ -13,7 +15,7 @@ header {
 #logo {
   font-weight: 600;
   font-size: 1.3rem;
-  border: 2px solid rgb(160, 94, 68);
+  border: 2px solid rgb(210, 199, 255);
   display: inline;
   padding: 5px;
 }
@@ -29,7 +31,7 @@ li {
 }
 
 a {
-  color: rgb(91, 153, 90);
+  color: rgb(210, 199, 255);
 }
 
 /* responsive layout */
@@ -52,7 +54,7 @@ a {
 
 /* MAIN */
 .main-img {
-  width: 50%;
+  width: 20%;
 }
 
 /* PICTURES SECTION */
