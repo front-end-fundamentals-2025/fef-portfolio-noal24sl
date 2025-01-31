@@ -1,7 +1,6 @@
 * {
-  /* FRÅGA OCKSÅ OM "ALT"" BEHÖVS I PORTFOLIO (VID BILDERNA)*/
-  /* HJÄLP ATT FIXA FONTEN!!!!!!!! */
-  font-family: "Bowlby One SC", serif;
+  font-family: "Ranchers", serif;
+  font-weight: 300;
   background-color: rgb(12, 13, 84);
   color: rgb(217, 241, 4);
 }
@@ -13,7 +12,6 @@ header {
 }
 
 #logo {
-  font-weight: 600;
   font-size: 1.3rem;
   border: 2px solid rgb(210, 199, 255);
   display: inline;
@@ -57,7 +55,7 @@ a {
   width: 20%;
 }
 
-/* PICTURES SECTION */
+/* PORTFOLIO SECTION */
 figure {
   margin-left: 0;
 }
@@ -85,8 +83,54 @@ form {
   margin-bottom: 25px;
 }
 
+/* PORTFOLIO-1 SECTION */
+.portfolio-1-img {
+  width: 20%;
+}
+
+/* PORTFOLIO-2 SECTION */
+.portfolio-2-img {
+  width: 20%;
+}
+
+/* PORTFOLIO-3 SECTION */
+.portfolio-3-img {
+  width: 20%;
+}
+
+/* PORTFOLIO-4 SECTION */
+.portfolio-4-img {
+  width: 20%;
+}
+
+/* PORTFOLIO-5 SECTION */
+.portfolio-5-pictures-container {
+  width: 50%;
+}
+
+/* responsive layout */
+@media screen and (min-width: 520px) {
+  .portfolio-5-pictures-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* PORTFOLIO-6 SECTION */
+.portfolio-6-pictures-container {
+  width: 50%;
+}
+
+/* responsive layout */
+@media screen and (min-width: 520px) {
+  .portfolio-6-pictures-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
 /* FOOTER */
 footer {
   margin-top: 3rem;
-  border-top: 1px solid rgb(160, 94, 68);
+  border-top: 1px solid rgb(210, 199, 255);
 }
