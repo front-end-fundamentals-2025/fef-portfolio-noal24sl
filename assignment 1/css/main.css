@@ -57,8 +57,72 @@ a {
 }
 
 /* ----- MAIN ----- */
+
+/* hela main-img gör ingenting just nu*/
 .main-img {
   width: 20%;
+}
+
+.main-img1 {
+  width: 18%;
+  opacity: 100%;
+  margin-right: -30px;
+  animation: appear 2s;
+}
+
+.main-img2 {
+  width: 18%;
+  opacity: 80%;
+  margin-right: -30px;
+  animation: appear 6s;
+}
+
+.main-img3 {
+  width: 18%;
+  opacity: 60%;
+  margin-right: -30px;
+  animation: appear 10s;
+}
+
+.main-img4 {
+  width: 18%;
+  opacity: 40%;
+  margin-right: -30px;
+  animation: appear 14s;
+}
+
+.main-img5 {
+  width: 18%;
+  opacity: 20%;
+  margin-right: -30px;
+  animation: appear 18s;
+}
+
+.main-img6 {
+  width: 18%;
+  opacity: 10%;
+  animation: appear 22s;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+}
+
+/* fråga hur jag gör den responsive*/
+/* -- responsive main layout -- */
+@media screen and (min-width: 520px) {
+  .main-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .main-img {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 /* ----- PORTFOLIO SECTION ----- */
