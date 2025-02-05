@@ -1,3 +1,4 @@
+/* ----- GLOBAL STYLES ----- */
 * {
   font-family: "Ranchers", serif;
   font-weight: 300;
@@ -5,12 +6,14 @@
   color: rgb(217, 241, 4);
 }
 
-/* HEADER */
+/* ----- HEADER ----- */
+/* header overall */
 header {
   display: flex;
   align-items: center;
 }
 
+/* the logotype */
 #logo {
   font-size: 1.3rem;
   border: 2px solid rgb(210, 199, 255);
@@ -18,21 +21,24 @@ header {
   padding: 5px;
 }
 
+/**/
 ul {
   display: flex;
   list-style: none;
   padding-left: 0px;
 }
 
+/**/
 li {
   margin-left: 3rem;
 }
 
+/**/
 a {
   color: rgb(210, 199, 255);
 }
 
-/* responsive layout */
+/* -- responsive header layout -- */
 @media screen and (max-width: 520px) {
   header,
   ul {
@@ -50,12 +56,12 @@ a {
   }
 }
 
-/* MAIN */
+/* ----- MAIN ----- */
 .main-img {
   width: 20%;
 }
 
-/* PORTFOLIO SECTION */
+/* ----- PORTFOLIO SECTION ----- */
 figure {
   margin-left: 0;
 }
@@ -64,7 +70,7 @@ figure {
   width: 100%;
 }
 
-/* responsive layout */
+/* -- responsive portfolio layout -- */
 @media screen and (min-width: 520px) {
   .pictures-container {
     display: grid;
@@ -78,37 +84,32 @@ figure {
   }
 }
 
-/* ABOUT ME */
-form {
-  margin-bottom: 25px;
-}
-
-/* PORTFOLIO-1 SECTION */
+/* ----- PORTFOLIO-1 SECTION ----- */
 .portfolio-1-img {
   width: 20%;
 }
 
-/* PORTFOLIO-2 SECTION */
+/* ----- PORTFOLIO-2 SECTION ----- */
 .portfolio-2-img {
   width: 20%;
 }
 
-/* PORTFOLIO-3 SECTION */
+/* ----- PORTFOLIO-3 SECTION ----- */
 .portfolio-3-img {
   width: 20%;
 }
 
-/* PORTFOLIO-4 SECTION */
+/* ----- PORTFOLIO-4 SECTION ----- */
 .portfolio-4-img {
   width: 20%;
 }
 
-/* PORTFOLIO-5 SECTION */
+/* ----- PORTFOLIO-5 SECTION ----- */
 .portfolio-5-pictures-container {
   width: 50%;
 }
 
-/* responsive layout */
+/* -- responsive portfolio-5 layout -- */
 @media screen and (min-width: 520px) {
   .portfolio-5-pictures-container {
     display: grid;
@@ -116,12 +117,12 @@ form {
   }
 }
 
-/* PORTFOLIO-6 SECTION */
+/* ----- PORTFOLIO-6 SECTION ----- */
 .portfolio-6-pictures-container {
   width: 50%;
 }
 
-/* responsive layout */
+/* -- responsive portfolio-6 layout -- */
 @media screen and (min-width: 520px) {
   .portfolio-6-pictures-container {
     display: grid;
@@ -129,7 +130,12 @@ form {
   }
 }
 
-/* FOOTER */
+/* ----- ABOUT ME ----- */
+form {
+  margin-bottom: 25px;
+}
+
+/* ----- FOOTER ----- */
 footer {
   margin-top: 3rem;
   border-top: 1px solid rgb(210, 199, 255);
