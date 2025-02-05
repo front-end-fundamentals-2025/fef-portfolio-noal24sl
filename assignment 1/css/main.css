@@ -66,8 +66,28 @@ figure {
   margin-left: 0;
 }
 
+.portfolio-container {
+  position: relative;
+}
+
 .category-image {
   width: 100%;
+}
+
+/* hover image is done with the help of a youtube video*/
+/* https://youtu.be/NHb3o3sP9iA?si=R-bZ4H5F8AdWPRD9 */
+.top-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 94%;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.top-img:hover {
+  opacity: 1;
 }
 
 /* -- responsive portfolio layout -- */
