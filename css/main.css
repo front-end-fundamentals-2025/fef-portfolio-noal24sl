@@ -57,15 +57,14 @@ a {
 }
 
 /* ----- MAIN ----- */
-
-.hej {
+.all-img {
   width: 18%;
   margin-right: -30px;
 }
 
 .main-img1 {
   opacity: 100%;
-  animation: appear 2s;
+  animation: appear 3s;
 }
 
 .main-img2 {
@@ -75,31 +74,42 @@ a {
 
 .main-img3 {
   opacity: 60%;
-  animation: appear 10s;
+  animation: appear 9s;
 }
 
 .main-img4 {
   opacity: 40%;
-  animation: appear 14s;
+  animation: appear 12s;
 }
 
 .main-img5 {
   opacity: 20%;
-  animation: appear 18s;
+  animation: appear 15s;
 }
 
 .main-img6 {
   opacity: 10%;
-  animation: appear 22s;
+  animation: appear 18s;
 }
 
+/* appearing images is done with the help of a youtube video*/
+/* https://youtu.be/0TnO1GzKWPc?si=Dtxe57ba64f3R1ow */
 @keyframes appear {
   from {
     opacity: 0;
   }
+
+  40% {
+    transform: rotate(2deg) scale(1.05);
+  }
+
+  70% {
+    transform: rotate(-2deg) scale(1.05);
+  }
 }
 
-/* fråga hur jag gör den responsive*/
+/* lab assistent is looking at how I can
+   fix the responsive layout for the images */
 /* -- responsive main layout -- */
 /*
 @media screen and (min-width: 520px) {
@@ -115,6 +125,7 @@ a {
   }
 }
 
+
 /* ----- PORTFOLIO SECTION ----- */
 figure {
   margin-left: 0;
@@ -128,6 +139,8 @@ figure {
   width: 100%;
 }
 
+/* check at lab to solve the issue with
+   responsive layout for the hover effect */
 /* hover image is done with the help of a youtube video*/
 /* https://youtu.be/NHb3o3sP9iA?si=R-bZ4H5F8AdWPRD9 */
 .top-img {
