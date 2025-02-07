@@ -21,19 +21,19 @@ header {
   padding: 5px;
 }
 
-/**/
+/* the whole navigation menu list */
 ul {
   display: flex;
   list-style: none;
   padding-left: 0px;
 }
 
-/**/
+/* the individual menu items */
 li {
   margin-left: 3rem;
 }
 
-/**/
+/* the links inside the navigation menu */
 a {
   color: rgb(210, 199, 255);
 }
@@ -58,48 +58,37 @@ a {
 
 /* ----- MAIN ----- */
 
-/* hela main-img gör ingenting just nu*/
-.main-img {
-  width: 20%;
+.hej {
+  width: 18%;
+  margin-right: -30px;
 }
 
 .main-img1 {
-  width: 18%;
   opacity: 100%;
-  margin-right: -30px;
   animation: appear 2s;
 }
 
 .main-img2 {
-  width: 18%;
   opacity: 80%;
-  margin-right: -30px;
   animation: appear 6s;
 }
 
 .main-img3 {
-  width: 18%;
   opacity: 60%;
-  margin-right: -30px;
   animation: appear 10s;
 }
 
 .main-img4 {
-  width: 18%;
   opacity: 40%;
-  margin-right: -30px;
   animation: appear 14s;
 }
 
 .main-img5 {
-  width: 18%;
   opacity: 20%;
-  margin-right: -30px;
   animation: appear 18s;
 }
 
 .main-img6 {
-  width: 18%;
   opacity: 10%;
   animation: appear 22s;
 }
@@ -112,15 +101,16 @@ a {
 
 /* fråga hur jag gör den responsive*/
 /* -- responsive main layout -- */
+/*
 @media screen and (min-width: 520px) {
-  .main-img {
+  .hej {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media screen and (min-width: 750px) {
-  .main-img {
+  .hej {
     grid-template-columns: repeat(6, 1fr);
   }
 }
