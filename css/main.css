@@ -174,22 +174,62 @@ figure {
 }
 
 /* ----- PORTFOLIO-1 SECTION ----- */
+#reset1 {
+  position: absolute;
+  top: 160px;
+  left: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid rgb(210, 199, 255);
+}
+
 .portfolio-1-img {
+  padding-top: 50px;
   width: 20%;
 }
 
 /* ----- PORTFOLIO-2 SECTION ----- */
+#reset2 {
+  position: absolute;
+  top: 160px;
+  left: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid rgb(210, 199, 255);
+}
+
 .portfolio-2-img {
+  padding-top: 50px;
   width: 20%;
 }
 
 /* ----- PORTFOLIO-3 SECTION ----- */
+#reset3 {
+  position: absolute;
+  top: 160px;
+  left: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid rgb(210, 199, 255);
+}
+
 .portfolio-3-img {
+  padding-top: 50px;
   width: 20%;
 }
 
 /* ----- PORTFOLIO-4 SECTION ----- */
+#reset4 {
+  position: absolute;
+  top: 160px;
+  left: 8px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid rgb(210, 199, 255);
+}
+
 .portfolio-4-img {
+  padding-top: 50px;
   width: 20%;
 }
 
