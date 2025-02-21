@@ -108,23 +108,25 @@ a {
   }
 }
 
-/* lab assistent is looking at how I can
-   fix the responsive layout for the images */
 /* -- responsive main layout -- */
-/*
-@media screen and (min-width: 520px) {
-  .hej {
-    display: grid;
+/* done with the help of lab assistent */
+@media screen and (max-width: 750px) {
+  .all-img {
     grid-template-columns: repeat(3, 1fr);
   }
 }
 
-@media screen and (min-width: 750px) {
-  .hej {
-    grid-template-columns: repeat(6, 1fr);
+@media screen and (max-width: 520px) {
+  .all-img {
+    grid-template-columns: 1fr;
   }
 }
 
+.all-img {
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+}
 
 /* ----- PORTFOLIO SECTION ----- */
 figure {
