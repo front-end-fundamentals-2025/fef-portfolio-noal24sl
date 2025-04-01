@@ -1,0 +1,33 @@
+.thankYou_img {
+  display: flex;
+  opacity: 100%;
+ /*  justify-content: center;
+  align-items: center; */
+  width: 30%;
+  animation: appear 4s;
+}
+
+/* keyframes is loosely inspired of a youtube video*/
+/* https://youtu.be/0TnO1GzKWPc?si=Dtxe57ba64f3R1ow */
+@keyframes appear {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  10% {
+    opacity: 1;
+  }
+
+  40% {
+    transform: rotate(2deg) scale(1.05);
+  }
+
+  70% {
+    transform: rotate(-2deg) scale(1.05);
+  }
+
+  100% {
+    transform: rotate(0deg) scale(1);
+  }
+}
